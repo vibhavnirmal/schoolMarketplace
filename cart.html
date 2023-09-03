@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart | Mercado Escolar</title>
+    <link rel="stylesheet" href="src/css/main.css">
+    <link rel="stylesheet" href="src/css/cart.css">
+</head>
+
+<body>
+    <!-- Header start -->
+    <div class="grid-container header">
+        <div class="item1">
+            <a href="index.html">
+                <img id="logoo" src="src/icons/MercadoEscolar2.png" alt="">
+                <!-- <p>Mercado Escolar</p> -->
+            </a>
+        </div>
+        <div class="item2">
+            <input type="text" id="searchMain" placeholder="Search here">
+            <img id="searchIcon" src="src/icons/search-svgrepo-com.svg" alt="">
+        </div>
+        <div class="item3">
+            <div id="nav-bar">
+                <ul class="table">
+                    <li><a href="#"><img id="mainScreenIcons" src="src/icons/bookmark-empty-svgrepo-com.svg"
+                                alt="Wishlist"></a></li>
+                    <li><a href="cart.html"><img id="mainScreenIcons" src="src/icons/shopping-cart.png" alt="Cart"></a>
+                    </li>
+                    <li><a href="login.html"><img id="mainScreenIcons" src="src/icons/profile-circled-svgrepo-com.svg"
+                                alt="Profile"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Header end -->
+
+    <div class="maintitle">
+        <span id="about">Cart</span>
+    </div>
+    <div class="main-wrapper">
+        <div class="myCart">
+            <table>
+                <thead>
+                    <tr class="bg-gray">
+                        <th style="width: 10%;"></th>
+                        <th style="width: 40%;">Product</th>
+                        <th style="width: 15%;">Price</th>
+                        <th style="width: 15%;">Quantity</th>
+                        <th style="width: 15%;">Total</th>
+                        <th style="width: 5%;"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="">
+                            <a href="#"><img src="src/img/cart-01.webp" alt=""></a>
+                        </td>
+                        <td class=""><a href="#">Plant pots</a></td>
+
+                        <td class=""><span class="">$17.00</span></td>
+
+                        <td class="">
+                            <div class="">
+                                <div class="">
+                                    <input class="qua" type="number" name="qtybutton" value="2">
+                                </div>
+                            </div>
+                        </td>
+                        <td class="">
+                            <span class="">$ 34.00</span>
+                        </td>
+                        <td class="">
+                            <a href="#"><img src="src/icons/xmark.svg" alt=""></a>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td class="">
+                            <a href="#"><img src="src/img/cart-02.webp" alt=""></a>
+                        </td>
+                        <td class=""><a href="#">Teapot with black tea</a></td>
+
+                        <td class=""><span class="">$14.00</span></td>
+
+                        <td class="">
+                            <div class="">
+                                <div class="">
+                                    <input class="qua" type="number" name="qtybutton" value="2">
+                                </div>
+                            </div>
+                        </td>
+                        <td class="">
+                            <span class="">$ 28.00</span>
+                        </td>
+                        <td class="">
+                            <a href="#"><img src="src/icons/xmark.svg" alt=""></a>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td class="">
+                            <a href="#"><img src="src/img/cart-03.webp" alt=""></a>
+                        </td>
+                        <td class=""><a href="#">Wooden Flowerpot</a></td>
+
+                        <td class=""><span class="">$14.00</span></td>
+
+                        <td class="">
+                            <div class="">
+                                <div class="">
+                                    <input class="qua" type="number" name="qtybutton" value="2">
+                                </div>
+                            </div>
+                        </td>
+                        <td class="">
+                            <span class="">$ 28.00</span>
+                        </td>
+                        <td class="">
+                            <a href="#"><img src="src/icons/xmark.svg" alt=""></a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="flex-container-update-cart">
+            <div class="flex-item-left">
+                <a href="#" class="button"> Continue Shopping </a>
+            </div>
+            <div class="flex-item-right">
+                <a href="#" class="button">Update cart</a>
+            </div>
+        </div>
+        <div class="">
+            <div class="flex-container row">
+                <div class="flex-item-left">
+                    <div class="discount-code">
+                        <p class="coup">Coupon Discount</p>
+                        <p>Enter coupon code (Only applicable for certain items)</p>
+                        <input type="text" name="name" placeholder="Coupon code">
+                        <button class="button" type="submit">Apply coupon</button>
+                    </div>
+                </div>
+                <div class="flex-item-right">
+                    <div class="grand-total-wrap">
+                        <div class="grand-total-content">
+                            <ul>
+                                <li>Subtotal <span id="total"> $90.00</span></li>
+                                <hr>
+                                <li>Total <span id="total">$90.00</span> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="proceed">
+                        <a href="checkout.html" class="button">Proceed to checkout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Footer start -->
+    <div class="grid-container footer">
+        <div class="item5">
+            <p><b>Mercado Escolar</b></p>
+            <p>Woolf Hall, University of Texas at arlington</p>
+            <p>Ph. (817) 123 4567</p>
+            <p> <a href="">Twitter</a> | <a href="">Instagram</a> </p>
+        </div>
+        <div class="item6">
+            <p><b>Quick Links</b></p>
+            <p><a href="about.html">About us</a></p>
+            <p><a href="">Contact us</a></p>
+            <p><a href="">FAQs</a></p>
+        </div>
+        <div class="item7">
+            <p><a href="">Help/Information</a></p>
+            <p><a href="">Return and Refund</a></p>
+            <p><a href="">Privacy Policy</a></p>
+            <p><a href="">Terms and Conditions</a></p>
+        </div>
+        <div class="item8">
+            <p>Sign up for the newsletter</p>
+            <br>
+            <input type="text" id="emailEnter" placeholder="Enter email here">
+            <img id="emailSend" src="src/icons/right-arrow.png" alt="Go">
+        </div>
+    </div>
+    <!-- Footer end -->
+</body>
+
+</html>

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | Mercado Escolar</title>
+    <link rel="stylesheet" href="src/css/main.css">
+    <link rel="stylesheet" href="src/css/dash.css">
+</head>
+
+<body>
+    <!-- Header start -->
+    <div class="grid-container header">
+        <div class="item1">
+            <a href="index.html">
+                <img id="logoo" src="src/icons/MercadoEscolar2.png" alt="">
+                <!-- <p>Mercado Escolar</p> -->
+            </a>
+        </div>
+        <div class="item2">
+            <input type="text" id="searchMain" placeholder="Search here">
+            <img id="searchIcon" src="src/icons/search-svgrepo-com.svg" alt="">
+        </div>
+        <div class="item3">
+            <div id="nav-bar">
+                <ul class="table">
+                    <li><a href="#"><img id="mainScreenIcons" src="src/icons/bookmark-empty-svgrepo-com.svg"
+                                alt="Wishlist"></a></li>
+                    <li><a href="cart.html"><img id="mainScreenIcons" src="src/icons/shopping-cart.png" alt="Cart"></a>
+                    </li>
+                    <li><a href="login.html"><img id="mainScreenIcons" src="src/icons/profile-circled-svgrepo-com.svg"
+                                alt="Profile"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Header end -->
+
+    <div class="maintitle">
+        <span id="about">School Admin Dashboard</span>
+    </div>
+
+    <div class="main-content">
+        <div class="left">
+            <div class="myaccount-tab-menu nav" role="tablist">
+                <a href="#dashboad" class="active" data-bs-toggle="tab">
+                    <i class="fa fa-dashboard"></i>
+                    Dashboard</a>
+                <a href="#products-info" data-bs-toggle="tab">
+                    <i class="fa fa-user"></i>
+                    Manage Students</a>
+                <a href="#promotion-info" data-bs-toggle="tab">
+                    <i class="fa fa-user"></i>
+                    Manage Business Owners</a>
+                <a href="#account-info" data-bs-toggle="tab">
+                    <i class="fa fa-user"></i>
+                    Account Details</a>
+                <a href="#posts" data-bs-toggle="tab">
+                    <i class="fa fa-cart-arrow-down"></i>
+                    Manage Clubs</a>
+                <a href="#chat" data-bs-toggle="tab">
+                    <i class="fa fa-cloud-download"></i>
+                    Manage Posts</a>
+                <a href="#report-settings" data-bs-toggle="tab">
+                    <i class="fa fa-cart-arrow-down"></i>
+                    Reports and Insights</a>
+                <a href="login.html" style="border-bottom: 1px solid #ddd;">
+                    <i class="fa fa-sign-out"></i>
+                    Logout</a>
+            </div>
+        </div>
+        <div class="right">
+            <div class="myaccount-content">
+                <div class="welcome">
+                    <div class="yes">
+                        <p>Hello <strong>Yor Xio</strong>,</p>
+                    </div>
+                    <div class="no">
+                        <p>(Not <strong>Yor ?</strong><a href="login.html" class="logout"> Logout</a>)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mygrid school">
+                <div class="mygridVal" style="background-color: lightblue;">
+                    <div class="log">
+                        <img id="topImg" src="src/icons/users.svg" alt="">
+                    </div>
+                    <div class="cont">
+                        <p>Students</p>
+                        <p>61,086</p>
+                    </div>
+                </div>
+                <div class="mygridVal" style="background-color: lightgreen;">
+                    <div class="log">
+                        <img id="topImg" src="src/icons/users.svg" alt="">
+                    </div>
+                    <div class="cont">
+                        <p>Businesses</p>
+                        <p>86</p>
+                    </div>
+                </div>
+            </div>
+            <div class="AllOrders">
+                <div class="tab-pane fade active show" id="orders" role="tabpanel">
+                    <div class="myaccount-content">
+                        <button id="shop">Show More</button>
+                        <p>Business Account Request</p>
+                        <hr>
+                        <div class="myaccount-table table-responsive text-center">
+                            <table class="table table-bordered">
+                                <thead class="thead-light">
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Business Name</th>
+                                        <th>Manager</th>
+                                        <th>Application Date</th>
+                                        <th>Status</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>McDonads</td>
+                                        <td>Jose Morales</td>
+                                        <td>Aug 22, 2018</td>
+                                        <td>Pending</td>
+                                        <td><a href="" class="">View</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>34</td>
+                                        <td>Halal Shack</td>
+                                        <td>Yaml Cooper</td>
+                                        <td>May 2, 2021</td>
+                                        <td>Approved</td>
+                                        <td><a href="" class="">View</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>13</td>
+                                        <td>Jack in the box</td>
+                                        <td>Jack Reaper</td>
+                                        <td>August 29, 2022</td>
+                                        <td>On Hold</td>
+                                        <td><a href="" class="">View</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>22</td>
+                                        <td>Sonic</td>
+                                        <td>Jim Terry</td>
+                                        <td>December 15, 2021</td>
+                                        <td>Approved</td>
+                                        <td><a href="" class="">View</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="AllOrders">
+                <div class="tab-pane fade active show" id="orders" role="tabpanel">
+                    <div class="myaccount-content">
+                        <button id="shop">Show More</button>
+                        <p>Blogpost Requests</p>
+                        <hr>
+                        <div class="myaccount-table table-responsive text-center">
+                            <table class="table table-bordered">
+                                <thead class="thead-light">
+                                    <tr>
+                                        <th>Number</th>
+                                        <th>From</th>
+                                        <th>Title</th>
+                                        <th>Date</th>
+                                        <th>Status</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>34</td>
+                                        <td>Hue Jean</td>
+                                        <td>New Updated System</td>
+                                        <td>Aug 1, 2022</td>
+                                        <td>Pending</td>
+                                        <td><a href="" class="">View</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>22</td>
+                                        <td>Marry Cun</td>
+                                        <td>Food and pasta</td>
+                                        <td>April 22, 2021</td>
+                                        <td>Approved</td>
+                                        <td><a href="" class="">View</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>31</td>
+                                        <td>Koleman Tiddles</td>
+                                        <td>Camera Tricks</td>
+                                        <td>Sept 12, 2021</td>
+                                        <td>On Hold</td>
+                                        <td><a href="" class="">View</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="AllOrders">
+                <div class="tab-pane fade active show" id="orders" role="tabpanel">
+                    <div class="myaccount-content">
+                        <button id="shop">Show More</button>
+                        <p>Club Requests</p>
+                        <hr>
+                        <div class="myaccount-table table-responsive text-center">
+                            <table class="table table-bordered">
+                                <thead class="thead-light">
+                                    <tr>
+                                        <th>REQ</th>
+                                        <th>From</th>
+                                        <th>Club Name</th>
+                                        <th>Date</th>
+                                        <th>Status</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>REQ6598</td>
+                                        <td>Kent Starc</td>
+                                        <td>Robos</td>
+                                        <td>Aug 22, 2022</td>
+                                        <td>Pending</td>
+                                        <td><a href="" class="">View</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>REQ1234</td>
+                                        <td>Bob Marley</td>
+                                        <td>TiAcos</td>
+                                        <td>July 2, 2022</td>
+                                        <td>Approved</td>
+                                        <td><a href="" class="">View</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>REQ3224</td>
+                                        <td>Megan Stalli</td>
+                                        <td>Aeros</td>
+                                        <td>June 12, 2021</td>
+                                        <td>On Hold</td>
+                                        <td><a href="" class="">View</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer start -->
+    <div class="grid-container footer">
+        <div class="item5">
+            <p>Mercado Escolar</p>
+            <p>Woolf Hall, University of Texas at arlington</p>
+            <p>Ph. (817) 123 4567</p>
+            <p> <a href="">Twitter</a> | <a href="">Instagram</a> </p>
+        </div>
+        <div class="item6">
+            <p>Quick Links</p>
+            <p><a href="about.html">About us</a></p>
+            <p><a href="">Contact us</a></p>
+            <p><a href="">FAQs</a></p>
+        </div>
+        <div class="item7">
+            <p><a href="">Help/Information</a></p>
+            <p><a href="">Return and Refund</a></p>
+            <p><a href="">Privacy Policy</a></p>
+            <p><a href="">Terms and Conditions</a></p>
+        </div>
+        <div class="item8">
+            <p>Sign up for the newsletter</p>
+            <br>
+            <input type="text" id="emailEnter" placeholder="Enter email here">
+            <img id="emailSend" src="src/icons/right-arrow.png" alt="Go">
+        </div>
+    </div>
+    <!-- Footer end -->
+</body>
+
+</html>

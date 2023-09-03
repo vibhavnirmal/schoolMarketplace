@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Admin Dashboard</title>
+	<link rel="stylesheet" href="src/css/admin.css" />
+	<link rel="stylesheet" href="src/css/main.css" />
+</head>
+
+<body id="body">
+	<div class="container">
+		<nav class="navbar">
+			<div class="nav_icon">
+				<img src="src/icons/bars.svg" alt="">
+			</div>
+			<div class="navbar__left">
+				<a class="active_link" href="#">Super Admin</a>
+			</div>
+			<div class="navbar__right">
+				<a href="#">
+					<img src="src/icons/search-svgrepo-com.svg" style="height: 20px;" alt="">
+				</a>
+				<a href="#">
+					<img width="30" src="src/icons/avatar.svg" alt="" />
+				</a>
+			</div>
+		</nav>
+		<main>
+			<div class="main__container">
+				<div class="main__title">
+					<img src="src/icons/hello.svg" alt="" />
+					<div class="main__greeting">
+						<h1>Hello Mark</h1>
+						<p>Welcome to your admin dashboard</p>
+					</div>
+				</div>
+				<div class="main__cards">
+					<div class="card">
+						<img class="iconn" src="src/icons/user.svg" alt="">
+						<div class="card_inner">
+							<p class="text-primary-p">Number of Users</p>
+							<span class="font-bold text-title">1578</span>
+						</div>
+					</div>
+
+					<div class="card">
+						<img class="iconn" src="src/icons/calendar.svg" alt="">
+						<div class="card_inner">
+							<p class="text-primary-p">Daily new users</p>
+							<span class="font-bold text-title">30</span>
+						</div>
+					</div>
+
+					<div class="card">
+						<img class="iconn" src="src/icons/video.svg" alt="">
+						<div class="card_inner">
+							<p class="text-primary-p">Media interactions</p>
+							<span class="font-bold text-title">340</span>
+						</div>
+					</div>
+
+					<div class="card">
+						<img class="iconn" src="src/icons/thumbs-up.svg" alt="">
+						<div class="card_inner">
+							<p class="text-primary-p">Happy customers</p>
+							<span class="font-bold text-title">645</span>
+						</div>
+					</div>
+				</div>
+				<div class="boxx" style="margin-bottom: 20px; padding: 10px;">
+					<ul class="">
+						<li class=""><a class="nav-link active" data-bs-toggle="tab" href="#summery-today">Today</a>
+						</li>
+						<li class=""><a class="nav-link" data-bs-toggle="tab" href="#summery-week">Week</a></li>
+						<li class=""><a class="nav-link" data-bs-toggle="tab" href="#summery-month">Month</a></li>
+						<li class=""><a class="nav-link" data-bs-toggle="tab" href="#summery-year">Year</a></li>
+					</ul>
+					<div class="">
+						<div class="input-group">
+							<input type="date" class="form-control">
+							<button class="btn" type="button"><img id="myIcon" style="height: 24px;"
+									src="src/icons/filter.svg" alt=""></button>
+						</div>
+					</div>
+				</div>
+				<div class="summary" id="summery-today">
+					<div class="boxx">
+						<div class="">
+							<span class="">Customers</span>
+							<div><span class="">14,208</span></div>
+						</div>
+						<div class="">
+							<img id="myIcon" src="src/icons/user.svg" alt="">
+						</div>
+					</div>
+					<div class="boxx">
+						<div class="">
+							<span class="">Order</span>
+							<div><span class="">2314</span></div>
+						</div>
+						<div class="">
+							<img id="myIcon" src="src/icons/discount.png" alt="">
+						</div>
+					</div>
+					<div class="boxx">
+						<div class="">
+							<span class="">Avg Sale</span>
+							<div><span class="">$1770</span></div>
+						</div>
+						<div class="">
+							<img id="myIcon" src="src/icons/calculator.svg" alt="">
+						</div>
+					</div>
+					<div class="boxx">
+						<div class="">
+							<span class="">Avg Item Sale</span>
+							<div><span class="">185</span></div>
+						</div>
+						<div class="">
+							<img id="myIcon" src="src/icons/bars.svg" alt="">
+						</div>
+					</div>
+					<div class="boxx">
+						<div class="">
+							<span class="">Total Sale</span>
+							<div><span class="">$35000</span></div>
+						</div>
+						<div class="">
+							<img id="myIcon" src="src/icons/cart-svgrepo-com.svg" alt="">
+						</div>
+					</div>
+					<div class="boxx">
+						<div class="">
+							<span class="">Visitors</span>
+							<div><span class="">11452</span></div>
+						</div>
+						<div class="">
+							<img id="myIcon" src="src/icons/users.svg" alt="">
+						</div>
+					</div>
+					<div class="boxx">
+						<div class="">
+							<span class="">Total Products</span>
+							<div><span class="">161</span></div>
+						</div>
+						<div class="">
+							<img id="myIcon" src="src/icons/bag-shopping.svg" alt="">
+						</div>
+					</div>
+					<div class="boxx">
+						<div class="">
+							<span class="">Top Selling Items</span>
+							<div><span class="">122</span></div>
+						</div>
+						<div class="">
+							<img id="myIcon" src="src/icons/star.svg" alt="">
+						</div>
+					</div>
+					<div class="boxx">
+						<div class="">
+							<span class="">Businesses</span>
+							<div><span class="">32</span></div>
+						</div>
+						<div class="">
+							<img id="myIcon" src="src/icons/acquisition.png" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="AllOrders">
+					<div class="tab-pane fade active show" id="orders" role="tabpanel">
+						<div class="myaccount-content">
+							<button id="shop">Show More</button>
+							<p>Queries</p>
+							<hr>
+							<div class="myaccount-table table-responsive text-center">
+								<table class="table table-bordered">
+									<thead class="thead-light">
+										<tr>
+											<th>ID</th>
+											<th>User name</th>
+											<th>Subject</th>
+											<th>Application Date</th>
+											<th>Status</th>
+											<th>Action</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>1</td>
+											<td>Jean</td>
+											<td>Cannot log in</td>
+											<td>Aug 22, 2018</td>
+											<td>Pending</td>
+											<td><a href="" class="">View</a>
+											</td>
+										</tr>
+										<tr>
+											<td>3</td>
+											<td>Codi</td>
+											<td>How to access the portal</td>
+											<td>May 2, 2021</td>
+											<td>Approved</td>
+											<td><a href="" class="">View</a>
+											</td>
+										</tr>
+										<tr>
+											<td>13</td>
+											<td>Jean</td>
+											<td>Cannot sale an item</td>
+											<td>August 29, 2022</td>
+											<td>On Hold</td>
+											<td><a href="" class="">View</a>
+											</td>
+										</tr>
+										<tr>
+											<td>22</td>
+											<td>Jim Peuyy</td>
+											<td>How to edit the last name mistake</td>
+											<td>December 15, 2021</td>
+											<td>Approved</td>
+											<td><a href="" class="">View</a>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="charts">
+					<div class="charts__left">
+						<div class="charts__left__title">
+							<div>
+								<h1>Daily Reports</h1>
+								<p>Cupertino, California, USA</p>
+							</div>
+							<img class="iconn" src="src/icons/dollar-sign.svg" alt="">
+						</div>
+						<div id="apex1"></div>
+					</div>
+
+
+				</div>
+				<!-- CHARTS ENDS HERE -->
+			</div>
+		</main>
+
+		<div id="sidebar">
+			<div class="sidebar__title">
+				<div class="sidebar__img">
+					<!-- <a href="index.html">
+						<img id="logoo" src="src/icons/MercadoEscolar2.png" alt="">
+					</a>  -->
+					<h1>Mercado Escolar</h1>
+				</div>
+				<img class="iconn" id="sidebarIcon" src="src/icons/xmark.svg" alt="">
+			</div>
+
+			<div class="sidebar__menu">
+				<div class="sidebar__link active_menu_link">
+					<img class="iconn" id="sidebarIcon" src="src/icons/house.svg" alt="">
+					<a href="#">Dashboard</a>
+				</div>
+				<h2>Management</h2>
+				<div class="sidebar__link">
+					<i class="fa fa-user-secret" aria-hidden="true"></i>
+					<a href="#">Student Management</a>
+				</div>
+				<div class="sidebar__link">
+					<i class="fa fa-building-o"></i>
+					<a href="#">Business Management</a>
+				</div>
+				<div class="sidebar__link">
+					<i class="fa fa-wrench"></i>
+					<a href="#">School Admin Management</a>
+				</div>
+				<div class="sidebar__link">
+					<i class="fa fa-wrench"></i>
+					<a href="#">Queries</a>
+				</div>
+				<h2>Payroll</h2>
+				<div class="sidebar__link">
+					<i class="fa fa-money"></i>
+					<a href="#">Student Assistant Payroll</a>
+				</div>
+				<div class="sidebar__link">
+					<i class="fa fa-briefcase"></i>
+					<a href="#">Paygrade</a>
+				</div>
+				<h2>Leave</h2>
+				<div class="sidebar__link">
+					<i class="fa fa-question"></i>
+					<a href="#">Requests</a>
+				</div>
+				<div class="sidebar__link">
+					<i class="fa fa-files-o"></i>
+					<a href="#">Apply for leave</a>
+				</div>
+				<div class="sidebar__link">
+					<i class="fa fa-sign-out"></i>
+					<a href="#">Leave Policy</a>
+				</div>
+				<div class="sidebar__link">
+					<i class="fa fa-calendar-check-o"></i>
+					<a href="#">Special Days</a>
+				</div>
+				<div class="sidebar__logout">
+					<i class="fa fa-power-off"></i>
+					<a href="#">Log out</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

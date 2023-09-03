@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dashboard | Mercado Escolar</title>
+	<link rel="stylesheet" href="src/css/main.css">
+	<link rel="stylesheet" href="src/css/dash.css">
+</head>
+
+<body>
+	<!-- Header start -->
+	<div class="grid-container header">
+		<div class="item1">
+			<a href="index.html">
+				<img id="logoo" src="src/icons/MercadoEscolar2.png" alt="">
+				<!-- <p>Mercado Escolar</p> -->
+			</a>
+		</div>
+		<div class="item2">
+			<input type="text" id="searchMain" placeholder="Search here">
+			<img id="searchIcon" src="src/icons/search-svgrepo-com.svg" alt="">
+		</div>
+		<div class="item3">
+			<div id="nav-bar">
+				<ul class="table">
+					<li><a href="#"><img id="mainScreenIcons" src="src/icons/bookmark-empty-svgrepo-com.svg"
+								alt="Wishlist"></a></li>
+					<li><a href="cart.html"><img id="mainScreenIcons" src="src/icons/shopping-cart.png" alt="Cart"></a>
+					</li>
+					<li><a href="login.html"><img id="mainScreenIcons" src="src/icons/profile-circled-svgrepo-com.svg"
+								alt="Profile"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- Header end -->
+
+	<div class="maintitle">
+		<span id="about">Student Dashboard</span>
+		<p class="mb-0">From your account dashboard, you can easily check &amp; view your recent orders, your shipping
+			and billing addresses and edit your password and account details.</p>
+	</div>
+
+	<div class="main-content">
+		<div class="left">
+			<div class="myaccount-tab-menu nav" role="tablist">
+				<a href="#dashboad" class="active" data-bs-toggle="tab">
+					<i class="fa fa-dashboard"></i>
+					Dashboard</a>
+				<a href="#download" data-bs-toggle="tab">
+					<i class="fa fa-cloud-download"></i>
+					My Recent Orders</a>
+				<a href="#account-info" data-bs-toggle="tab">
+					<i class="fa fa-user"></i>
+					Account Details</a>
+				<a href="#clubs-info" data-bs-toggle="tab">
+					<i class="fa fa-user"></i>
+					Manage Clubs</a>
+				<a href="#clubs-info" data-bs-toggle="tab">
+					<i class="fa fa-user"></i>
+					Manage My Products</a>
+				<a href="#posts" data-bs-toggle="tab">
+					<i class="fa fa-cart-arrow-down"></i>
+					My Posts/Advertises</a>
+				<a href="#orders" data-bs-toggle="tab">
+					<i class="fa fa-cart-arrow-down"></i>
+					Orders</a>
+				<a href="login.html" style="border-bottom: 1px solid #ddd;">
+					<i class="fa fa-sign-out"></i>
+					Logout</a>
+			</div>
+		</div>
+		<div class="right">
+			<div class="" id="" role="">
+				<div class="myaccount-content">
+					<div class="welcome">
+						<div class="yes">
+							<p>Hello <strong>John Doe</strong></p>
+						</div>
+						<div class="no">
+							<p>(Not <strong>John ?</strong><a href="login.html" class="logout"> Logout</a>)</p>
+						</div>
+					</div>
+				</div>
+				<div class="myaccount-content manageProds">
+					<a href=""><button id="shop">Show More</button></a>
+					<p>Manage My Products</p>
+					<hr>
+					<div class="multiple">
+						<a href="">
+							<div class="prod1 prod">
+								<img class="myImg" src="src/img/introtoNN.jpg" alt=""><br>
+								<span>Intro to Neural nets Book</span>
+							</div>
+						</a>
+						<a href="">
+							<div class="prod2 prod">
+								<img class="myImg" src="src/img/oldBag.jpeg" alt=""><br>
+								<span>Antique bag</span>
+							</div>
+						</a>
+						<a href="">
+							<div class="prod3 prod">
+								<img class="myImg" src="src/img/oldSofa.jpeg" alt=""><br>
+								<span>Sofa in good condition</span>
+							</div>
+						</a>
+						<a href="">
+							<div class="prod4 prod">
+								<img class="myImg" src="src/img/penBox.jpeg" alt=""><br>
+								<span>Box of Pens</span>
+							</div>
+						</a>
+					</div>
+
+				</div>
+				<div class="myaccount-content manageClubs">
+					<button id="shop">Show More</button>
+					<p>Manage My Clubs</p>
+					<hr>
+					<div class="multiple">
+						<a href="">
+							<div class="prod1 prod">
+								<img class="myImg" src="src/img/aeroMavs.jpeg" alt=""><br>
+								<span>Aero Mavericks</span>
+							</div>
+						</a>
+						<a href="">
+							<div class="prod1 prod">
+								<img class="myImg" src="src/img/autonobots.jpeg" alt=""><br>
+								<span>EE Autonobots Club</span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="myaccount-content manageProds">
+					<button id="shop">Show More</button>
+					<p>My Recent Orders</p>
+					<hr>
+					<div class="multiple">
+						<a href="">
+							<div class="prod1 prod">
+								<img class="myImg" src="src/img/shake.jpeg" alt=""><br>
+								<span>Chocolate | Chick-Fil-A</span>
+							</div>
+						</a>
+						<a href="">
+							<div class="prod1 prod">
+								<img class="myImg" src="src/img/sub.jpeg" alt=""><br>
+								<span>6 inch | Subway </span>
+							</div>
+						</a>
+						<a href="">
+							<div class="prod1 prod">
+								<img class="myImg" src="src/img/halal.jpeg" alt=""><br>
+								<span>Veggie bowl | Halal Shack</span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="myaccount-content">
+					<button id="shop">Show More</button>
+					<p>Manage My Posts/Advertises</p>
+					<hr>
+					<div class="multiple">
+						<a href="">
+							<div class="prod1 prod">
+								<img class="myImg" src="src/img/2-570x370.webp" alt=""><br>
+								<span>New Table with transparent glass</span>
+							</div>
+						</a>
+						<a href="">
+							<div class="prod1 prod">
+								<img class="myImg" src="src/img/8-570x370.webp" alt=""><br>
+								<span>Decorate your home with new furniture</span>
+							</div>
+						</a>
+						<a href="">
+							<div class="prod1 prod">
+								<img class="myImg" src="src/img/9-570x370.webp" alt=""><br>
+								<span>New house checklist</span>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- Footer start -->
+	<div class="grid-container footer">
+		<div class="item5">
+			<p>Mercado Escolar</p>
+			<p>Woolf Hall, University of Texas at arlington</p>
+			<p>Ph. (817) 123 4567</p>
+			<p> <a href="">Twitter</a> | <a href="">Instagram</a> </p>
+		</div>
+		<div class="item6">
+			<p>Quick Links</p>
+			<p><a href="about.html">About us</a></p>
+			<p><a href="">Contact us</a></p>
+			<p><a href="">FAQs</a></p>
+		</div>
+		<div class="item7">
+			<p><a href="">Help/Information</a></p>
+			<p><a href="">Return and Refund</a></p>
+			<p><a href="">Privacy Policy</a></p>
+			<p><a href="">Terms and Conditions</a></p>
+		</div>
+		<div class="item8">
+			<p>Sign up for the newsletter</p>
+			<br>
+			<input type="text" id="emailEnter" placeholder="Enter email here">
+			<img id="emailSend" src="src/icons/right-arrow.png" alt="Go">
+		</div>
+	</div>
+	<!-- Footer end -->
+</body>
+
+</html>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout | Mercado Escolar</title>
+    <link rel="stylesheet" href="src/css/main.css">
+    <link rel="stylesheet" href="src/css/checkout.css">
+</head>
+
+<body>
+    <!-- Header start -->
+    <div class="grid-container header">
+        <div class="item1">
+            <a href="index.html">
+                <img id="logoo" src="src/icons/MercadoEscolar2.png" alt="">
+                <!-- <p>Mercado Escolar</p> -->
+            </a>
+        </div>
+        <div class="item2">
+            <input type="text" id="searchMain" placeholder="Search here">
+            <img id="searchIcon" src="src/icons/search-svgrepo-com.svg" alt="">
+        </div>
+        <div class="item3">
+            <div id="nav-bar">
+                <ul class="table">
+                    <li><a href="#"><img id="mainScreenIcons" src="src/icons/bookmark-empty-svgrepo-com.svg"
+                                alt="Wishlist"></a></li>
+                    <li><a href="cart.html"><img id="mainScreenIcons" src="src/icons/shopping-cart.png" alt="Cart"></a>
+                    </li>
+                    <li><a href="login.html"><img id="mainScreenIcons" src="src/icons/profile-circled-svgrepo-com.svg"
+                                alt="Profile"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Header end -->
+
+    <div class="maintitle">
+        <span id="about">Checkout</span>
+    </div>
+    <div class="mainContent">
+        <div class="left">
+            <div class="">
+                <p class="billDet">Billing Details</p>
+                <div class="row">
+                    <div class="namee">
+                        <div class="half1">
+                            <div class="myBox">
+                                <label>First name <span class="" title="required">*</span></label>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="half2">
+                            <div class="myBox">
+                                <label>Last name <span class="" title="required">*</span></label>
+                                <input type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="full">
+                        <div class="myBox">
+                            <label>Card Number <span class="" title="required">*</span></label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="namee">
+                        <div class="half1">
+                            <div class="myBox">
+                                <label>Expiry Date <span class="" title="required">*</span></label>
+                                <input type="text" placeholder="MM/YY">
+                            </div>
+                        </div>
+                        <div class="half2">
+                            <div class="myBox">
+                                <label>Security Code <span class="" title="required">*</span></label>
+                                <input type="text" placeholder="***">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="full">
+                        <div class="myBox">
+                            <label>Postcode / ZIP (optional) <span class="" title="required">*</span></label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="full">
+                        <div class="myBox">
+                            <label>School name (optional)</label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="full">
+                        <div class="myBox">
+                            <label>Country <span class="" title="required">*</span></label>
+                            <select class="select-active">
+                                <option>United States</option>
+                                <option>Mexico</option>
+                                <option>Canada</option>
+                                <option>China</option>
+                                <option>Japan</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="full">
+                        <div class="myBox">
+                            <label>Street address <span title="required">*</span></label>
+                            <input class="billing-address" placeholder="House number and street name" type="text">
+                            <input placeholder="Apartment, suite, unit etc. (optional)" type="text">
+                        </div>
+                    </div>
+                    <div class="full">
+                        <div class="myBox">
+                            <label>City <span class="" title="required">*</span></label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="full">
+                        <div class="myBox">
+                            <label>County <span class="" title="required">*</span></label>
+                            <select class="select-active">
+                                <option>ABC</option>
+                                <option>DEF</option>
+                                <option>GHI</option>
+                                <option>JKL</option>
+                                <option>MNO</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="full">
+                        <div class="myBox">
+                            <label>Phone <span class="" title="required">*</span></label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="full">
+                        <div class="myBox">
+                            <label>Email Address <span class="" title="required">*</span></label>
+                            <input type="text">
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="">
+                    <p class="">Additional information</p>
+                    <label>Order notes (optional)</label>
+                    <textarea placeholder="Notes about your order, e.g. special notes for delivery. "
+                        name="message"></textarea>
+                </div> -->
+            </div>
+        </div>
+        <div class="right">
+            <div class="">
+                <h6 class="billDet">Your order</h6>
+                <div class="your-order-area">
+                    <div class="your-order-wrap">
+                        <div class="your-order-info-wrap">
+                            <div class="your-order-info" style="border-bottom: 1px solid #cdcdcd;">
+                                <ul>
+                                    <li>Product <span>Total</span></li>
+                                </ul>
+                            </div>
+                            <div class="your-order-middle">
+                                <ul>
+                                    <li>Product Name X 1 <span>$10 </span></li><br>
+                                    <li>Product Name X 3 <span>$30 </span></li>
+                                </ul>
+                            </div>
+                            <div class="your-order-info order-subtotal" style="border-bottom: 1px solid #cdcdcd;">
+                                <ul>
+                                    <li><strong>Subtotal</strong> <span>$100 </span></li>
+                                </ul>
+                            </div>
+                            <div class="your-order-info order-total">
+                                <ul>
+                                    <li><strong>Total</strong> <span>$100.00 </span></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="">
+                    <p style="text-align: justify;">Your personal data will be used to process the order, support your
+                        experience throughout this website, and for other purposes described in our <a href="#">privacy
+                            policy</a>.
+                    </p>
+                </div>
+                <div class="placeOrder">
+                    <a href="#" class="placeOrderButton">Place Order</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer start -->
+    <div class="grid-container footer">
+        <div class="item5">
+            <p>Mercado Escolar</p>
+            <p>Woolf Hall, University of Texas at arlington</p>
+            <p>Ph. (817) 123 4567</p>
+            <p> <a href="">Twitter</a> | <a href="">Instagram</a> </p>
+        </div>
+        <div class="item6">
+            <p>Quick Links</p>
+            <p><a href="about.html">About us</a></p>
+            <p><a href="">Contact us</a></p>
+            <p><a href="">FAQs</a></p>
+        </div>
+        <div class="item7">
+            <p><a href="">Help/Information</a></p>
+            <p><a href="">Return and Refund</a></p>
+            <p><a href="">Privacy Policy</a></p>
+            <p><a href="">Terms and Conditions</a></p>
+        </div>
+        <div class="item8">
+            <p>Sign up for the newsletter</p>
+            <br>
+            <input type="text" id="emailEnter" placeholder="Enter email here">
+            <img id="emailSend" src="src/icons/right-arrow.png" alt="Go">
+        </div>
+    </div>
+    <!-- Footer end -->
+</body>
+
+</html>
